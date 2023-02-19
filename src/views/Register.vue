@@ -63,14 +63,6 @@
         margin-top: 100px;
     }
 
-    .login-content {
-        width: 500px;
-        margin: 0 auto;
-        padding: 30px 20px;
-        background-color: #2F2F2F;
-        border-radius: 12px;
-    }
-
     .have-account {
         margin-top: 17px;
         text-align: center;

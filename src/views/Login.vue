@@ -46,6 +46,15 @@
         padding-top: 0 !important;
     }
 
+    @media (max-width: 768px) {
+      .title {
+        font-size: 64px !important;
+      }
+      .login-content {
+        width: 70% !important;
+      }
+    }
+
     .bg-image {
         background-image: url('../assets/bg.png');
         background-repeat: no-repeat;
@@ -59,7 +68,6 @@
     }
 
     .full-content {
-        position: relative;
         min-height: 100vh;
         background-color: #242424;
         margin: 0 auto;
@@ -68,7 +76,6 @@
     }
 
     .content {
-        padding-bottom: 90px;
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -83,7 +90,7 @@
     }
 
     .login-content {
-        width: 500px;
+        width: 48%;
         margin: 0 auto;
         padding: 30px 20px;
         background-color: #2F2F2F;
